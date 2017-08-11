@@ -19,8 +19,8 @@ RUN chmod +x /start.sh
 
 RUN echo "alias l='ls -la'" >> ~/.bashrc
 
-EXPOSE 20
-EXPOSE 21
-EXPOSE 990
+EXPOSE 20 21
+EXPOSE 12020 12021
+#EXPOSE 990
 
 ENTRYPOINT ["/start.sh"]
