@@ -17,7 +17,7 @@ COPY start.sh /
 
 RUN chmod +x /start.sh
 
-RUN echo "alias l='ls -la'" >> ~/bashrc
+RUN echo "alias l='ls -la'" >> ~/.bashrc
 
 EXPOSE 20
 EXPOSE 21
