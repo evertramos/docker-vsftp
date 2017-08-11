@@ -21,5 +21,6 @@ RUN echo "alias l='ls -la'" >> ~/bashrc
 
 EXPOSE 20
 EXPOSE 21
+EXPOSE 990
 
 ENTRYPOINT ["/start.sh"]
